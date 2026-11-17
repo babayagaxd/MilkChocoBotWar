@@ -1,3 +1,4 @@
+
 name: Build Milk Choco Bot War APK
 
 on:
@@ -8,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -36,6 +38,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: MilkChocoBotWar-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
-          if-no-files-found: error
+          name: MilkChocoBotWar-APK
+          path: app/build/outputs/apk/debug/*.apk
+
