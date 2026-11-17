@@ -31,3 +31,5 @@ Application ID: `com.milkchoco.botwar`
 Version: `1.0`
 Minimum Android: 6.0 (API 23)
 Target SDK: 35
+
+
